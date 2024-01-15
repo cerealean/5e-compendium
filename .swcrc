@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "jsc": {
+        "parser": {
+            "syntax": "typescript",
+            "tsx": false,
+            "dynamicImport": false,
+            "decorators": false,
+            "importAssertions": true
+        },
+        "target": "esnext",
+        "loose": false,
+        "externalHelpers": false,
+        "keepClassNames": true,
+        "baseUrl": "./"
+    },
+    "isModule": true,
+    "exclude": [
+        ".*\\.json$"
+    ],
+    "sourceMaps": true
+}
